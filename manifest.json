@@ -59,6 +59,38 @@
       ],
       "ast": [
         "aggregate/ast/a2c7e27875277450ed28147623ba5218dd23e732/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/a2c7e27875277450ed28147623ba5218dd23e732.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "paste-test-suite",
+          "ecosystem": "CARGO",
+          "version": "0",
+          "githubOrg": "dtolnay",
+          "githubRepo": "paste",
+          "githubUrl": "https://github.com/dtolnay/paste",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustversion",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "dtolnay",
+          "githubRepo": "rustversion",
+          "githubUrl": "https://github.com/dtolnay/rustversion",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1.0.49",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubCommit": "7ddf992f8382950c73ab067d59885d6d24e2b69e",
+          "githubTag": "1.0.49",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
